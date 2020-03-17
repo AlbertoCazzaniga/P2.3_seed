@@ -31,14 +31,14 @@ using namespace dealii;
 
 void first_grid()
 {
-  Triangulation<2> triangulation;
+  Triangulation<2> mesh;
 
-  GridGenerator::hyper_cube(triangulation);
-  triangulation.refine_global(4);
+  GridGenerator::hyper_cube(mesh, 1, -1);
+  mesh.refine_global(4);
 
   std::ofstream out("grid-1.eps");
   GridOut       grid_out;
-  grid_out.write_eps(triangulation, out);
+  grid_out.write_eps(mesh, out);
   std::cout << "Grid written to grid-1.eps" << std::endl;
 }
 
