@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alberto/alberto/MHPC_19_20/P2.3_seed/exercises/lab01/step-1/step-1.cc
+deal.II/grid/grid_generator.h
+-
+deal.II/grid/grid_out.h
+-
+deal.II/grid/manifold_lib.h
+-
+deal.II/grid/tria.h
+-
+deal.II/grid/tria_accessor.h
+-
+deal.II/grid/tria_iterator.h
+-
+cmath
+-
+fstream
+-
+iostream
+-
+
