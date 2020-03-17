@@ -24,5 +24,5 @@ https://www.dealii.org/current/doxygen/deal.II/step_1.html https://www.dealii.or
 	- Create an image of an L-shape domain with one global refinement.
 	- Inspect the mesh in Paraview.
 	- Refine the L-shaped mesh adaptively:
-		- Refine all cells with the distance between the center of the cell and re-entrant corner is smaller than 3.
+		- Refine all cells with the distance between the center of the cell and re-entrant corner is smaller than 0.3.
 		- Refine exactly at the re-entrant corner (i.e. those with the corner as a vertex) several times.

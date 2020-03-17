@@ -15,6 +15,11 @@ docker run -t -i dealii/dealii:latest
 
 If you add the flag -u0, then you will be running the docker image as root in order to install new packages.
 
+Google doc notes
+================
+
+https://bit.ly/2WgfTXZ
+
 License
 =======
 The course content for _P2.4 - The Finite Element Method Using deal.II_ is licensed under a
