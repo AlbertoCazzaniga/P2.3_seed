@@ -1,5 +1,5 @@
-## Lab 2
-### Creating a DoFHandler and visualising sparsity patterns
+## Lab 3
+### Solving Poisson Equation
 
 author: Luca Heltai (luca.heltai@sissa.it)
 
