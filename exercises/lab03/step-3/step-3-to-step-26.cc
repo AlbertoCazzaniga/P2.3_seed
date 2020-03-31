@@ -12,7 +12,6 @@
  * the top level of the deal.II distribution.
  *
  * ---------------------------------------------------------------------
-
  *
  * Authors: Wolfgang Bangerth, 1999,
  *          Guido Kanschat, 2011
@@ -380,3 +379,4 @@ main(int argc, char **argv)
 
   return 0;
 }
+

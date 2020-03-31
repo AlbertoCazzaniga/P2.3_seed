@@ -142,12 +142,12 @@ third_grid()
 
 	const Point<dim> center;
 	const double     radius = 1.0;
-	GridGenerator::hyper_ball(triangulation, center, radius, true);
+	GridGenerator::hyper_ball(triangulation, center, radius);
 	std::ofstream out_0("grid_3-0.svg");
 	GridOut       grid_out_0;
 	grid_out_0.write_svg(triangulation, out_0);
 
-	triangulation.refine_global(1);
+	triangulation.refine_global(2);
 	std::ofstream out_1("grid_3-1.svg");
 	GridOut       grid_out_1;
 	grid_out_1.write_svg(triangulation, out_1);
@@ -245,6 +245,6 @@ main()
 {
   //first_grid();
   //second_grid<2>();
-  //third_grid<>();
-  fourth_grid<>();
+  third_grid<>();
+  //fourth_grid<>();
 }

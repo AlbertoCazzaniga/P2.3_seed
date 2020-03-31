@@ -206,6 +206,7 @@ void
 Step3<dim>::assemble_system()
 {
   TimerOutput::Scope timer_section(timer, "Assemble system");
+  
   QGauss<dim>        quadrature_formula(2);
   FEValues<dim>      fe_values(fe,
                           quadrature_formula,
